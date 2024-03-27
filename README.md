@@ -53,10 +53,10 @@ P.S.: After each username, the script will insert a random sleep between 2 and 1
 
 ## To Do
 
-[x] Insert YouTube availability check
-[x] Insert Twitch availability check
-[x] Insert Instagram availability check
-[x] Insert TikTok availability check
-[x] Insert Threads availability check
-[x] Insert BlueSky availability check
-[ ] Insert X/Twitter availability check
+[x] Insert YouTube availability check  
+[x] Insert Twitch availability check  
+[x] Insert Instagram availability check  
+[x] Insert TikTok availability check  
+[x] Insert Threads availability check  
+[x] Insert BlueSky availability check  
+[ ] Insert X/Twitter availability check  
