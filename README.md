@@ -25,17 +25,6 @@ Run your search using the `check.sh` file that exists in the project:
 $ check.sh testingusername
 ```
 
-Output:
-```bash
-Checking @testingusername
-    YouTube: Available (https://youtube.com/@testingusername)
-    Twitch: Unavailable (https://twitch.tv/testingusername)
-    Instagram: Unavailable (https://instagram.com/testingusername/)
-    TikTok: Unavailable (https://tiktok.com/@testingusername)
-    Threads: Available (https://www.threads.net/@testingusername)
-    BlueSky: Available (https://bsky.app/profile/testingusername.bsky.social)
-```
-
 You can alternately create a symbolic link:
 ```bash
 $ sudo ln -s <PROJECT_FOLDER>/check.sh /usr/local/bin/social-check
@@ -45,11 +34,18 @@ And use the project:
 ```bash
 $ social-check testingusername
 ```
+
+Output:
+<p>
+  <img src="https://ibb.co/yYCQfTm" />
+</p>
+
 If you need to check multiple usernames, you can pass a list of usernames as follows:
 ```bash
 $ social-check /tmp/usernames_to_test.txt
 ```
 P.S.: After each username, the script will insert a random sleep between 2 and 15 seconds.
+
 
 ## To Do
 
