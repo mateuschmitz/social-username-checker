@@ -13,7 +13,7 @@ check_youtube_availability() {
 
 check_twitch_availability() {
     # idon't know why
-    curl -s -H "User-Agent: $DESKTOP_USER_AGENT" https://www.twitch.tv/$1 > /dev/null && sleep 1
+    curl -s -H "User-Agent: $DESKTOP_USER_AGENT" https://www.twitch.tv/$1 > /dev/null && sleep 2
     curl -s -H "User-Agent: $DESKTOP_USER_AGENT" https://www.twitch.tv/$1 > $TEMP_PATH/$1.log
     
     COUNT=$(($( grep $1 $TEMP_PATH/$1.log | wc -l ))) && rm -Rf $TEMP_PATH/$1.log
