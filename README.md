@@ -37,7 +37,7 @@ $ social-check testingusername
 
 Output:
 <p>
-  <img src="https://ibb.co/yYCQfTm" />
+  <img src="https://i.ibb.co/pRTL0D6/testing-social-username-checker.png" />
 </p>
 
 If you need to check multiple usernames, you can pass a list of usernames as follows:
